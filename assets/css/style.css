@@ -1,0 +1,9 @@
+.body{
+    background-image: url(../images/watercolor2.jpg);
+}
+
+#topbar{
+    background-color:#0080ff;
+    font-family:'Federant';
+    color: #fffaf0;
+}
