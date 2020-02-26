@@ -1,9 +1,40 @@
 .body{
-    background-image: url(../images/watercolor2.jpg);
+    background-image: url("../images/teal-free-vector-watercolor-background.jpg");
+    
 }
 
 #topbar{
     background-color:#0080ff;
     font-family:'Federant';
     color: #fffaf0;
+    height:200px
+    
 }
+#reach{
+    border: 2px solid #00bfff;
+    text-align: center;
+    padding:20px;
+    margin-bottom:20px;
+    
+}
+#score{
+    position:absolute;
+    left:25%;
+    border: 2px solid #00bfff;
+    text-align: center;
+    padding:20px;
+    margin-top:20px;
+}
+#gameScore{
+    border: 2px solid #00bfff;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.card{
+    border: 2px solid #00bfff;
+   
+}
+
+
+   
