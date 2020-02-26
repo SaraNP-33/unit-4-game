@@ -10,11 +10,15 @@
     height:200px
     
 }
+#gamerules{
+    font-family:'Federant';
+}
 #reach{
     border: 2px solid #00bfff;
     text-align: center;
     padding:20px;
     margin-bottom:20px;
+    font-family: 'Federant';
     
 }
 #score{
@@ -24,11 +28,13 @@
     text-align: center;
     padding:20px;
     margin-top:20px;
+    font-family: 'Federant';
 }
 #gameScore{
     border: 2px solid #00bfff;
     padding:20px;
     margin-bottom:20px;
+    font-family: 'Federant';
 }
 
 .card{
