@@ -44,8 +44,8 @@ var crystals={
      targetScore = randomNumber;
 
      //fetch the id's of the divs
-     $("#Score").html(gameScore);
-     $("#randomNumber").html(targetScore);
+     $("#yourscore").text(gameScore);
+     $("#randomNumber").text(targetScore);
 
      //give the crystals their values
      crystals.blue.value = randomCrystal
@@ -61,7 +61,7 @@ var crystals={
   var values = function () {
       gameScore+= crystals.value;
 
-      $("#Score").html(gameScore);
+      $("#yourscore").text(gameScore);
       winsLosses();
   };
 
@@ -70,36 +70,41 @@ var crystals={
   var winsLosses = function() {
       if(gameScore === targetScore){
           alert ("Yay you did it!!");
+        console.log("you won");
 
           wins++;
       $("wins").html(wins);
-      };
-      else (gameScore > targetScore) {
+      } 
+      
+      else if(gameScore > targetScore) {
           alert ("Oops...Better Luck Next Time!");
+        console.log("you loose");
 
           losses++;
           $("losses").html(losses);
-      };
+      
      gameStart();
+
+    }
   };
 
 gameStart();
-$("crystal1").html("blue")
+
 $("blue").click( function(){
     values(crystal.blue);
 });
 
-$("crystal2").html("yellow")
-$("blue").click( function(){
+
+$("yellow").click( function(){
     values(crystal.yellow);
 });
 
-$("crystal3").html("red")
-$("blue").click( function(){
+
+$("red").click( function(){
     values(crystal.red);
 });
 
-$("crystal4").html("purple")
-$("blue").click( function(){
+
+$("purple").click( function(){
     values(crystal.purple);
 });
