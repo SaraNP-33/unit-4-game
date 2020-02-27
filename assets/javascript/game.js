@@ -62,6 +62,7 @@ var crystals={
       gameScore+= crystals.value;
 
       $("#Score").html(gameScore);
+      winsLosses();
   };
 
   //set up function with if and elses statements that check wins and losses
@@ -79,7 +80,26 @@ var crystals={
           losses++;
           $("losses").html(losses);
       };
+     gameStart();
+  };
 
-      //count the wins and link it to the html
-     
-  }
+gameStart();
+$("crystal1").html("blue")
+$("blue").click( function(){
+    values(crystal.blue);
+});
+
+$("crystal2").html("yellow")
+$("blue").click( function(){
+    values(crystal.yellow);
+});
+
+$("crystal3").html("red")
+$("blue").click( function(){
+    values(crystal.red);
+});
+
+$("crystal4").html("purple")
+$("blue").click( function(){
+    values(crystal.purple);
+});
