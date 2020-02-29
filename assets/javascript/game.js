@@ -105,7 +105,7 @@ function  gameStart ( ){
         console.log("you loose");
 
           losses++;
-          $("#losses").text(losses);
+          $("#losses").text("losses: " + losses);
       
      gameStart();
 
