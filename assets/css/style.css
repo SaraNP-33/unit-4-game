@@ -1,6 +1,7 @@
-.body{
-    background-image: url("./../images/jen-theodore-OILcNO6Dmv8-unsplash.jpg");
+body{
+    background-image: url("../images/watercolor2.png");
     background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
