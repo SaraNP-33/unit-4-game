@@ -8,7 +8,7 @@ body{
 #topbar{
     background-color:#C71585;
     font-family:'Federant';
-    color: #fffaf0;
+    color: #ffffff;
     height:200px
     
 }
@@ -21,7 +21,7 @@ body{
     padding:20px;
     margin-bottom:20px;
     font-family: 'Federant';
-    background-color:#fffaf0
+    background-color:#ffffff;
     
 }
 #score{
@@ -32,14 +32,14 @@ body{
     padding:20px;
     margin-top:20px;
     font-family: 'Federant';
-    background-color:#fffaf0
+    background-color:#ffffff;
 }
 #gameScore{
     border: 2px solid #4B0082;
     padding:20px;
     margin-bottom:20px;
     font-family: 'Federant';
-    background-color:#fffaf0
+    background-color:#ffffff;
 }
 
 .card{
