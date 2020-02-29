@@ -1,3 +1,4 @@
+$(document).ready(function(){
 // set my global variables
 //variable for the score the player wants to reach
 var targetScore=0;
@@ -12,10 +13,10 @@ var losses=0;
 //variable to assign a random number as the target score
 var randomNumber= function() {
     Math.floor((Math.random()*100)+ 1 ); 
-}
+};
 var randomCrystal = function() {
    Math.floor((Math.random()*10)+1);
-}
+};
 //create an object with the crystals in them and their values
 
 var crystals={
@@ -35,7 +36,8 @@ var crystals={
         name:"purple",
         value:0
     }
-}
+};
+
 // set up my game functions
 
 //the game function
@@ -74,7 +76,10 @@ var crystals={
 
           wins++;
       $("wins").html(wins);
-      } 
+
+      gameStart();
+
+      }
       
       else if(gameScore > targetScore) {
           alert ("Oops...Better Luck Next Time!");
@@ -88,23 +93,31 @@ var crystals={
     }
   };
 
-gameStart();
+
 
 $("blue").click( function(){
     values(crystal.blue);
+   
 });
 
 
 $("yellow").click( function(){
     values(crystal.yellow);
+   
+   
 });
 
 
 $("red").click( function(){
-    values(crystal.red);
+    values(crystal.red);  
+   
+    
 });
 
 
 $("purple").click( function(){
     values(crystal.purple);
+ 
+  
+});
 });
