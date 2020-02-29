@@ -50,7 +50,7 @@ function  gameStart ( ){
      gameScore=0
      console.log(gameScore);
 
-     targetScore = randomNumber;
+     targetScore = randomNumber();
      console.log(targetScore);
 
      //fetch the id's of the divs
