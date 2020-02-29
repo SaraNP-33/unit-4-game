@@ -14,7 +14,7 @@ var losses=0;
 var randomNumber=Math.floor((Math.random()*100)+ 1 ); 
 
 function randomCrystal(){ 
-    var randomvalue = Math.floor((Math.random()*10)+1);
+    var randomvalue = Math.floor((Math.random()*12)+1);
 return randomvalue;
 }
 
