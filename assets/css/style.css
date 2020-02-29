@@ -1,12 +1,12 @@
 body{
-    background-image: url("../images/watercolor2.png");
-    background-size: cover;
+    background-image: url("../images/blue_purple_red_952572974.jpg");
+    background-size: auto;
     background-repeat: no-repeat;
     
 }
 
 #topbar{
-    background-color:#0080ff;
+    background-color:#C71585;
     font-family:'Federant';
     color: #fffaf0;
     height:200px
@@ -16,33 +16,38 @@ body{
     font-family:'Federant';
 }
 #reach{
-    border: 2px solid #00bfff;
+    border: 2px solid #4B0082;
     text-align: center;
     padding:20px;
     margin-bottom:20px;
     font-family: 'Federant';
+    background-color:#fffaf0
     
 }
 #score{
     position:absolute;
     left:25%;
-    border: 2px solid #00bfff;
+    border: 2px solid #4B0082
     text-align: center;
     padding:20px;
     margin-top:20px;
     font-family: 'Federant';
+    background-color:#fffaf0
 }
 #gameScore{
-    border: 2px solid #00bfff;
+    border: 2px solid #4B0082;
     padding:20px;
     margin-bottom:20px;
     font-family: 'Federant';
+    background-color:#fffaf0
 }
 
 .card{
-    border: 2px solid #00bfff;
+    border: 2px solid #4B0082;
+    
    
 }
+
 
 
    

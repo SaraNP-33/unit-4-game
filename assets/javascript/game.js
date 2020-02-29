@@ -39,6 +39,8 @@ var crystals={
     }
 };
 
+
+
 // set up my game functions
 
 //the game function
@@ -75,6 +77,7 @@ function  gameStart ( ){
       gameScore+= number;
 
       $("#yourscore").text(gameScore);
+      
       winsLosses();
   };
 
@@ -91,6 +94,7 @@ function  gameStart ( ){
           wins++;
           console.log(wins);
       $("#wins").text("wins: " + wins);
+
 
       gameStart();
 
