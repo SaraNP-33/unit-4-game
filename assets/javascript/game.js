@@ -92,7 +92,7 @@ var crystals={
 
     }
   };
-
+// make the crystals be clickable and be assigned their values. 
 
 
 $("blue").click( function(){
@@ -110,14 +110,14 @@ $("yellow").click( function(){
 
 $("red").click( function(){
     values(crystal.red);  
-   
+    gameStart();
     
 });
 
 
 $("purple").click( function(){
     values(crystal.purple);
- 
+    gameStart();
   
 });
 });
