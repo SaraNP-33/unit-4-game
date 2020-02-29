@@ -10,9 +10,11 @@ var gameScore=0;
 var wins=0;
 var losses=0;
 
-//variable to assign a random number as the target score
-var randomNumber=Math.floor((Math.random()*100)+ 1 ); 
-
+//Functions to assign a random number as the target score
+function randomNumber() {
+    var randomNum = Math.floor((Math.random()*100)+ 1 ); 
+    return randomNum
+}
 function randomCrystal(){ 
     var randomvalue = Math.floor((Math.random()*12)+1);
 return randomvalue;
